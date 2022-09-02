@@ -13,9 +13,9 @@ PrintNaturalNum(num1, num2);
 void PrintNaturalNum(int m1, int n1)
 {
     Console.Write($"{m1}, ");
+
     if (m1 > n1)
     PrintNaturalNum(m1-1,n1);
-
     else if (m1 < n1)
     PrintNaturalNum(m1+1,n1);
 }
